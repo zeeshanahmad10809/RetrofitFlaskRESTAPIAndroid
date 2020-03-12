@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_margin="30dp"
+        android:id="@+id/retrofit_logo"
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/retrofit_logo_round"
+       />
+
+    <Button
+        android:layout_below="@+id/retrofit_logo"
+        android:id="@+id/load_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Data"/>
+
+    <Button
+        android:layout_below="@id/load_btn"
+        android:id="@+id/manipulate_data_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manipulate Data"/>
+
+    <Button
+        android:layout_below="@id/manipulate_data_btn"
+        android:id="@+id/signin_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
+
+    <Button
+        android:layout_below="@id/signin_btn"
+        android:id="@+id/signup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"/>
+
+    <Button
+        android:layout_below="@id/signup_btn"
+        android:id="@+id/upload_image_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"/>
+
+</RelativeLayout>

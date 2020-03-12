@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManipulateActivity">
+
+    <ImageView
+        android:layout_margin="15dp"
+        android:id="@+id/retrofit_logo"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/retrofit_logo_round"
+        />
+
+    <EditText
+        android:layout_below="@id/retrofit_logo"
+        android:id="@+id/id_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter id here"/>
+
+    <EditText
+        android:id="@+id/name_edittext"
+        android:layout_below="@id/id_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name here"/>
+
+    <EditText
+        android:id="@+id/author_edittext"
+        android:layout_below="@id/name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter author name here"/>
+
+    <EditText
+        android:id="@+id/publisher_edittext"
+        android:layout_below="@id/author_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter publisher name here"/>
+
+    <Button
+        android:id="@+id/add_data_btn"
+        android:layout_below="@id/publisher_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Data"/>
+
+    <Button
+        android:id="@+id/update_data_btn"
+        android:layout_below="@id/add_data_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Data"/>
+
+    <Button
+        android:id="@+id/delete_data_btn"
+        android:layout_below="@id/update_data_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Data"/>
+
+</RelativeLayout>

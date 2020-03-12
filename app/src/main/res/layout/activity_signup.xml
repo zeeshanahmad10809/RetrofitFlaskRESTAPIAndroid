@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+
+    <ImageView
+        android:layout_margin="30dp"
+        android:id="@+id/new_retrofit_logo"
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/retrofit_logo_round"
+        />
+
+    <EditText
+        android:layout_below="@id/new_retrofit_logo"
+        android:id="@+id/newuser_name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name here"/>
+
+    <EditText
+        android:id="@+id/newuser_password_edittext"
+        android:layout_below="@id/newuser_name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password here"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_below="@+id/newuser_password_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign up"/>
+
+
+
+</RelativeLayout>
