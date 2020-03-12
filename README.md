@@ -7,5 +7,5 @@ This android project access Flask REST API using Retrofit.
 
 ### Requirements
 - Android Studio
-- [Flask(Python)](https://github.com/zeeshanahmad10809/RetrofitFlaskRESTAPIAndroid) script running.
+- [Flask(Python)](https://github.com/zeeshanahmad10809/FlaskRESTAPI) script running.
 - gradle 4.4
