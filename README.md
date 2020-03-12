@@ -1,4 +1,4 @@
-# RetrofitFlaskRESTAPIAndroid
+# Retrofit Android Flask REST API
 This android project access Flask REST API using Retrofit.
 
 ### Features
